@@ -2,14 +2,16 @@ Source: libydpdict
 Section: contrib/libs
 Priority: optional
 Maintainer: Marcin Owsiany <porridge@debian.org>
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Homepage: http://toxygen.net/ydpdict/
 Build-Depends:
 # debianization tools
  debhelper (>= 9~), dpkg-dev (>= 1.16.1~), dh-autoreconf,
 # build tools
- autoconf, automake1.11, libtool, pkg-config
+ autoconf, automake, libtool, pkg-config
 Build-Conflicts: autoconf2.13, automake1.4
+Vcs-Browser: https://github.com/porridge/libydpdict
+Vcs-Git: https://github.com/porridge/libydpdict.git -b debian-master
 
 Package: libydpdict2
 Architecture: any
