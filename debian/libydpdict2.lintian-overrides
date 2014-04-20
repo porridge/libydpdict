@@ -1,0 +1,1 @@
+hardening-no-fortify-functions usr/lib/*/libydpdict.so.*

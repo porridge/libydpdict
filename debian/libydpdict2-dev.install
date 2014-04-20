@@ -1,0 +1,4 @@
+usr/lib/*/libydpdict.so
+usr/lib/*/libydpdict.a
+usr/lib/*/pkgconfig/libydpdict.pc
+usr/include/ydpdict/ydpdict.h

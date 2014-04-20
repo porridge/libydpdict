@@ -1,0 +1,63 @@
+libydpdict (1.0.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Modernized the build system: dh 9 and autoreconf
+  * Bumped Standards-Version to 3.9.3, no changes needed
+  * Added a lintian override for a false-positive source fortification warning
+  * Removed the indefinite article from short descriptions
+  * Added a new symbol
+
+ -- Marcin Owsiany <porridge@debian.org>  Sat, 18 Aug 2012 08:36:01 +0200
+
+libydpdict (1.0.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Updated years in debian/copyright.
+  * Bumped API version to 1 in library file name.
+  * Bumped Standards-Version to 3.8.3:
+    - debian/copyright: Added a note on why the package is not in main.
+    - debian/rules: Standardized DEB_BUILD_OPTIONS usage.
+  * Dropped the .la file. (Closes: #545513)
+
+ -- Marcin Owsiany <porridge@debian.org>  Sun, 11 Oct 2009 12:10:29 +0100
+
+libydpdict (1.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+    - The API and ABI have both changed in an incompatible way. This is
+    expected to be the last such incompatible change, and it prepares ground
+    to keep backwards compatibility on future API changes.
+    - There are also some XHTML output bugfixes. (Closes: #446499)
+  * Changing the name of the -dev package to signify API breakage.
+  * Made updates necessary for the ABI version bump
+    - changed the main package name to libydpdict2
+    - changed filenames to include "2"
+  * Changed Source-Version to binary:Version as dictated by the new policy
+  * Moved the Homepage: from the long descriptions to a header, which is now
+    supported by dpkg
+  * Added a symbols file
+  * Bumped standards-version to 3.7.3
+  * Corrected the -dev package's section to be contrib/libdevel
+  * Fixed the clean target to only invoke distclean when the Makefile exists,
+    rather than ignoring distclean's exit status, thanks lintian
+
+ -- Marcin Owsiany <porridge@debian.org>  Sat, 15 Mar 2008 14:46:07 +0000
+
+libydpdict (0.99.1-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- Marcin Owsiany <porridge@debian.org>  Sat, 25 Aug 2007 15:30:14 +0100
+
+libydpdict (0.99.1-1) experimental; urgency=low
+
+  * Retry upload with upstream license consistency fixes, and an improved
+    debian/copyright
+
+ -- Marcin Owsiany <porridge@debian.org>  Mon, 30 Jul 2007 18:09:54 +0100
+
+libydpdict (0.99.0-1) experimental; urgency=low
+
+  * Initial release. (Closes: #433849)
+
+ -- Marcin Owsiany <porridge@debian.org>  Fri, 20 Jul 2007 13:53:27 +0100

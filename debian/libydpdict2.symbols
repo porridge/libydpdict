@@ -1,0 +1,15 @@
+libydpdict.so.2 libydpdict2 #MINVER#
+ ydpdict_close@Base 1.0.0
+ ydpdict_find_word@Base 1.0.0
+ ydpdict_get_count@Base 1.0.0
+ ydpdict_get_word@Base 1.0.0
+ ydpdict_open@Base 1.0.0
+ ydpdict_phonetic_to_utf8@Base 1.0.0
+ ydpdict_read_rtf@Base 1.0.0
+ ydpdict_read_xhtml@Base 1.0.0
+ ydpdict_set_xhtml_header@Base 1.0.0
+ ydpdict_set_xhtml_style@Base 1.0.0
+ ydpdict_set_xhtml_title@Base 1.0.0
+ ydpdict_set_xhtml_use_style@Base 1.0.0
+ ydpdict_windows1250_super_to_utf8@Base 1.0.4
+ ydpdict_windows1250_to_utf8@Base 1.0.0
